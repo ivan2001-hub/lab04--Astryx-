@@ -2,8 +2,14 @@
 # Lab 4 — Automated Software Testing
 
 ## Group Name
+## Gp name - Astryx 
+## Kaung Htet Wai(Argon) - 6805140029
+## Bhone Myat Kyaw(Ivan) - 6805140041
+## Chan Myae Myae Zaw(Coe) - 6805140032
+## Thazin Phyu (Diana) - 6805140023
 
 **Astryx**
+
 
 ## Who Did What
 
@@ -22,21 +28,18 @@ During Round 3, each group member edited the same section of `README.md` at roug
 The conflict markers we encountered were:
 
 ```text
-<<<<<<< HEAD
 | Member A | ivan2001-A | test_deposit.py |
-=======
 | Member B | Chanmmzaw-B | test_withdraw.py |
->>>>>>> commit
 ```
 
 The final version kept both members' rows, along with the rows for the other group members:
 
 ```text
-| Member A | username-A | test_deposit.py |
-| Member B | username-B | test_withdraw.py |
-| Member C | username-C | test_teardown.py |
-| Member D | username-D | test_shared.py |
-| Member E | username-E | conftest.py |
+| Member A | ivan2001-A | test_deposit.py |
+| Member B | Chanmmzaw-B | test_withdraw.py |
+| Member C | kaunghtetwaiargon-C | test_teardown.py |
+| Member D | phyu-19-D | test_shared.py |
+| Member E | ivan2001-E | conftest.py |
 ```
 
 Git could not resolve the conflict automatically because both versions changed the same section of `README.md`. Git therefore required us to manually decide which changes should remain.
@@ -52,10 +55,12 @@ git shortlog -sn
 ```
 
 Paste the actual output below:
+    10  Ivan
+     2  Coe
+     1  Argon
+     1  Thazin Phyu
+     1  ivan2001-hub
 
-```text
-[PASTE YOUR ACTUAL git shortlog -sn OUTPUT HERE]
-```
 
 All group members should appear in the contribution summary.
 
